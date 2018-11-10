@@ -19,6 +19,6 @@ $factory = new ClientFactory($metadata, $serializer);
 $client = $factory->getClient('SCHEMA-WSDLs/Ship.wsdl','ShipPort', 'ShipService');
 
 
-$result = $client->trackShipmentRequest(/* put here your params */);
+$result = $client->ProcessShipment(/* put here your params */);
 
 var_dump($result);
