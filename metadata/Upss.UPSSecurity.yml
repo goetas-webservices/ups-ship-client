@@ -1,0 +1,24 @@
+GoetasWebservices\Client\UPS\Upss\UPSSecurity:
+    xml_root_name: UPSSecurity
+    xml_root_namespace: 'http://www.ups.com/XMLSchema/XOLTWS/UPSS/v1.0'
+    properties:
+        usernameToken:
+            expose: true
+            access_type: public_method
+            serialized_name: UsernameToken
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/UPSS/v1.0'
+            accessor:
+                getter: getUsernameToken
+                setter: setUsernameToken
+            type: GoetasWebservices\Client\UPS\Upss\UPSSecurity\UsernameTokenAType
+        serviceAccessToken:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceAccessToken
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/UPSS/v1.0'
+            accessor:
+                getter: getServiceAccessToken
+                setter: setServiceAccessToken
+            type: GoetasWebservices\Client\UPS\Upss\UPSSecurity\ServiceAccessTokenAType

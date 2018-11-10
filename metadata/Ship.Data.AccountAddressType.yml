@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\AccountAddressType:
+    properties:
+        postalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PostalCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPostalCode
+                setter: setPostalCode
+            type: string
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            type: string

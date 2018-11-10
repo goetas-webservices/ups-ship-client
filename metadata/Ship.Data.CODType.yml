@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\CODType:
+    properties:
+        cODFundsCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CODFundsCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCODFundsCode
+                setter: setCODFundsCode
+            type: string
+        cODAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: CODAmount
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCODAmount
+                setter: setCODAmount
+            type: GoetasWebservices\Client\UPS\Ship\Data\CurrencyMonetaryType

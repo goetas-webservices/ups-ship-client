@@ -1,0 +1,52 @@
+GoetasWebservices\Client\UPS\Ship\Data\DGSignatoryInfoType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: Title
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            type: string
+        place:
+            expose: true
+            access_type: public_method
+            serialized_name: Place
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPlace
+                setter: setPlace
+            type: string
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: string
+        shipperDeclaration:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipperDeclaration
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getShipperDeclaration
+                setter: setShipperDeclaration
+            type: string

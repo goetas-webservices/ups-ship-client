@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\DeliveryConfirmationType:
+    properties:
+        dCISType:
+            expose: true
+            access_type: public_method
+            serialized_name: DCISType
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDCISType
+                setter: setDCISType
+            type: string
+        dCISNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: DCISNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDCISNumber
+                setter: setDCISNumber
+            type: string

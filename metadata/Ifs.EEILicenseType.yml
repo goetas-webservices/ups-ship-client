@@ -1,0 +1,42 @@
+GoetasWebservices\Client\UPS\Ifs\EEILicenseType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: string
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: string
+        licenseLineValue:
+            expose: true
+            access_type: public_method
+            serialized_name: LicenseLineValue
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getLicenseLineValue
+                setter: setLicenseLineValue
+            type: string
+        eCCNNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ECCNNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getECCNNumber
+                setter: setECCNNumber
+            type: string

@@ -1,0 +1,32 @@
+GoetasWebservices\Client\UPS\Ifs\EEIInformationType:
+    properties:
+        exportInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: ExportInformation
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getExportInformation
+                setter: setExportInformation
+            type: string
+        license:
+            expose: true
+            access_type: public_method
+            serialized_name: License
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getLicense
+                setter: setLicense
+            type: GoetasWebservices\Client\UPS\Ifs\EEILicenseType
+        dDTCInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: DDTCInformation
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getDDTCInformation
+                setter: setDDTCInformation
+            type: GoetasWebservices\Client\UPS\Ifs\DDTCInformationType

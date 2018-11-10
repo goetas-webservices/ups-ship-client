@@ -1,0 +1,50 @@
+GoetasWebservices\Client\UPS\Common\ResponseType:
+    properties:
+        responseStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseStatus
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getResponseStatus
+                setter: setResponseStatus
+            type: GoetasWebservices\Client\UPS\Common\CodeDescriptionType
+        alert:
+            expose: true
+            access_type: public_method
+            serialized_name: Alert
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getAlert
+                setter: setAlert
+            xml_list:
+                inline: true
+                entry_name: Alert
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Common\CodeDescriptionType>
+        alertDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: AlertDetail
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getAlertDetail
+                setter: setAlertDetail
+            xml_list:
+                inline: true
+                entry_name: AlertDetail
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Common\DetailType>
+        transactionReference:
+            expose: true
+            access_type: public_method
+            serialized_name: TransactionReference
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getTransactionReference
+                setter: setTransactionReference
+            type: GoetasWebservices\Client\UPS\Common\TransactionReferenceType

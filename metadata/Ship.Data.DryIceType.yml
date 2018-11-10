@@ -1,0 +1,32 @@
+GoetasWebservices\Client\UPS\Ship\Data\DryIceType:
+    properties:
+        regulationSet:
+            expose: true
+            access_type: public_method
+            serialized_name: RegulationSet
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getRegulationSet
+                setter: setRegulationSet
+            type: string
+        dryIceWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: DryIceWeight
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDryIceWeight
+                setter: setDryIceWeight
+            type: GoetasWebservices\Client\UPS\Ship\Data\DryIceWeightType
+        medicalUseIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: MedicalUseIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getMedicalUseIndicator
+                setter: setMedicalUseIndicator
+            type: string

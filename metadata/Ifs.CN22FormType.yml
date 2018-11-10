@@ -1,0 +1,76 @@
+GoetasWebservices\Client\UPS\Ifs\CN22FormType:
+    properties:
+        labelSize:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelSize
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getLabelSize
+                setter: setLabelSize
+            type: string
+        printsPerPage:
+            expose: true
+            access_type: public_method
+            serialized_name: PrintsPerPage
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPrintsPerPage
+                setter: setPrintsPerPage
+            type: string
+        labelPrintType:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelPrintType
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getLabelPrintType
+                setter: setLabelPrintType
+            type: string
+        cN22Type:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22Type
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22Type
+                setter: setCN22Type
+            type: string
+        cN22OtherDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22OtherDescription
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22OtherDescription
+                setter: setCN22OtherDescription
+            type: string
+        foldHereText:
+            expose: true
+            access_type: public_method
+            serialized_name: FoldHereText
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getFoldHereText
+                setter: setFoldHereText
+            type: string
+        cN22Content:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22Content
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22Content
+                setter: setCN22Content
+            xml_list:
+                inline: true
+                entry_name: CN22Content
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ifs\CN22ContentType>

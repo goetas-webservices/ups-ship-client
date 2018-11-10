@@ -1,0 +1,44 @@
+GoetasWebservices\Client\UPS\Ship\Data\ShipmentRequest:
+    xml_root_name: ShipmentRequest
+    xml_root_namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+    properties:
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: Request
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: GoetasWebservices\Client\UPS\Common\Request
+        shipment:
+            expose: true
+            access_type: public_method
+            serialized_name: Shipment
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getShipment
+                setter: setShipment
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipmentType
+        labelSpecification:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelSpecification
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLabelSpecification
+                setter: setLabelSpecification
+            type: GoetasWebservices\Client\UPS\Ship\Data\LabelSpecificationType
+        receiptSpecification:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceiptSpecification
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getReceiptSpecification
+                setter: setReceiptSpecification
+            type: GoetasWebservices\Client\UPS\Ship\Data\ReceiptSpecificationType

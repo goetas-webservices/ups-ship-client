@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\PreAlertEMailMessageType:
+    properties:
+        eMailAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: EMailAddress
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getEMailAddress
+                setter: setEMailAddress
+            type: string
+        undeliverableEMailAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: UndeliverableEMailAddress
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getUndeliverableEMailAddress
+                setter: setUndeliverableEMailAddress
+            type: string

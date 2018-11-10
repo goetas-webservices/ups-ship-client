@@ -1,0 +1,72 @@
+GoetasWebservices\Client\UPS\Ifs\CN22ContentType:
+    properties:
+        cN22ContentQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22ContentQuantity
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22ContentQuantity
+                setter: setCN22ContentQuantity
+            type: string
+        cN22ContentDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22ContentDescription
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22ContentDescription
+                setter: setCN22ContentDescription
+            type: string
+        cN22ContentWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22ContentWeight
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22ContentWeight
+                setter: setCN22ContentWeight
+            type: GoetasWebservices\Client\UPS\Ifs\ProductWeightType
+        cN22ContentTotalValue:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22ContentTotalValue
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22ContentTotalValue
+                setter: setCN22ContentTotalValue
+            type: string
+        cN22ContentCurrencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22ContentCurrencyCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22ContentCurrencyCode
+                setter: setCN22ContentCurrencyCode
+            type: string
+        cN22ContentCountryOfOrigin:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22ContentCountryOfOrigin
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22ContentCountryOfOrigin
+                setter: setCN22ContentCountryOfOrigin
+            type: string
+        cN22ContentTariffNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22ContentTariffNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22ContentTariffNumber
+                setter: setCN22ContentTariffNumber
+            type: string

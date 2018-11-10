@@ -1,0 +1,52 @@
+GoetasWebservices\Client\UPS\Ifs\ContactType:
+    properties:
+        forwardAgent:
+            expose: true
+            access_type: public_method
+            serialized_name: ForwardAgent
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getForwardAgent
+                setter: setForwardAgent
+            type: GoetasWebservices\Client\UPS\Ifs\ForwardAgentType
+        ultimateConsignee:
+            expose: true
+            access_type: public_method
+            serialized_name: UltimateConsignee
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getUltimateConsignee
+                setter: setUltimateConsignee
+            type: GoetasWebservices\Client\UPS\Ifs\UltimateConsigneeType
+        intermediateConsignee:
+            expose: true
+            access_type: public_method
+            serialized_name: IntermediateConsignee
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getIntermediateConsignee
+                setter: setIntermediateConsignee
+            type: GoetasWebservices\Client\UPS\Ifs\IntermediateConsigneeType
+        producer:
+            expose: true
+            access_type: public_method
+            serialized_name: Producer
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getProducer
+                setter: setProducer
+            type: GoetasWebservices\Client\UPS\Ifs\ProducerType
+        soldTo:
+            expose: true
+            access_type: public_method
+            serialized_name: SoldTo
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getSoldTo
+                setter: setSoldTo
+            type: GoetasWebservices\Client\UPS\Ifs\SoldToType

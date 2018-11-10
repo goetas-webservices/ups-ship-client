@@ -1,0 +1,14 @@
+GoetasWebservices\Client\UPS\Ship\Service\SoapEnvelope\Headers\ProcessShipAcceptInput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'
+    properties:
+        uPSSecurity:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getUPSSecurity
+                setter: setUPSSecurity
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/UPSS/v1.0'
+            serialized_name: UPSSecurity
+            type: 'GoetasWebservices\SoapServices\SoapEnvelope\Headers<''GoetasWebservices\Client\UPS\Upss\UPSSecurity''>'

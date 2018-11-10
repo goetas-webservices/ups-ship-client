@@ -1,0 +1,16 @@
+GoetasWebservices\Client\UPS\Common\ClientInformationType:
+    properties:
+        property:
+            expose: true
+            access_type: public_method
+            serialized_name: Property
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getProperty
+                setter: setProperty
+            xml_list:
+                inline: true
+                entry_name: Property
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Common\ClientInformationType\PropertyAType>

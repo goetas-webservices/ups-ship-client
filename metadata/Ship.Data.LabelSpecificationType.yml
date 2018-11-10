@@ -1,0 +1,56 @@
+GoetasWebservices\Client\UPS\Ship\Data\LabelSpecificationType:
+    properties:
+        labelImageFormat:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelImageFormat
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLabelImageFormat
+                setter: setLabelImageFormat
+            type: GoetasWebservices\Client\UPS\Ship\Data\LabelImageFormatType
+        hTTPUserAgent:
+            expose: true
+            access_type: public_method
+            serialized_name: HTTPUserAgent
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getHTTPUserAgent
+                setter: setHTTPUserAgent
+            type: string
+        labelStockSize:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelStockSize
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLabelStockSize
+                setter: setLabelStockSize
+            type: GoetasWebservices\Client\UPS\Ship\Data\LabelStockSizeType
+        instruction:
+            expose: true
+            access_type: public_method
+            serialized_name: Instruction
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getInstruction
+                setter: setInstruction
+            xml_list:
+                inline: true
+                entry_name: Instruction
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\InstructionCodeDescriptionType>
+        characterSet:
+            expose: true
+            access_type: public_method
+            serialized_name: CharacterSet
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCharacterSet
+                setter: setCharacterSet
+            type: string

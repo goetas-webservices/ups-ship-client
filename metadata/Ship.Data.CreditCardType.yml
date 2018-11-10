@@ -1,0 +1,52 @@
+GoetasWebservices\Client\UPS\Ship\Data\CreditCardType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: string
+        expirationDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpirationDate
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getExpirationDate
+                setter: setExpirationDate
+            type: string
+        securityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SecurityCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSecurityCode
+                setter: setSecurityCode
+            type: string
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: GoetasWebservices\Client\UPS\Ship\Data\CreditCardAddressType

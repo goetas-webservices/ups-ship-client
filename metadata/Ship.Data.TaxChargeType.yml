@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\TaxChargeType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        monetaryValue:
+            expose: true
+            access_type: public_method
+            serialized_name: MonetaryValue
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getMonetaryValue
+                setter: setMonetaryValue
+            type: string

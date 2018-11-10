@@ -1,0 +1,46 @@
+GoetasWebservices\Client\UPS\Ship\Data\LabelType:
+    properties:
+        graphicImagePart:
+            expose: true
+            access_type: public_method
+            serialized_name: GraphicImagePart
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getGraphicImagePart
+                setter: setGraphicImagePart
+            xml_list:
+                inline: true
+                entry_name: GraphicImagePart
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<string>
+        internationalSignatureGraphicImage:
+            expose: true
+            access_type: public_method
+            serialized_name: InternationalSignatureGraphicImage
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getInternationalSignatureGraphicImage
+                setter: setInternationalSignatureGraphicImage
+            type: string
+        hTMLImage:
+            expose: true
+            access_type: public_method
+            serialized_name: HTMLImage
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getHTMLImage
+                setter: setHTMLImage
+            type: string
+        pDF417:
+            expose: true
+            access_type: public_method
+            serialized_name: PDF417
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPDF417
+                setter: setPDF417
+            type: string

@@ -1,0 +1,32 @@
+GoetasWebservices\Client\UPS\Ifs\ForwardAgentType:
+    properties:
+        companyName:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCompanyName
+                setter: setCompanyName
+            type: string
+        taxIdentificationNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxIdentificationNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getTaxIdentificationNumber
+                setter: setTaxIdentificationNumber
+            type: string
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: GoetasWebservices\Client\UPS\Ifs\AddressType

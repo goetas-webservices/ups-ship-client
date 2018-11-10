@@ -1,0 +1,90 @@
+GoetasWebservices\Client\UPS\Ship\Data\ShipmentChargesType:
+    properties:
+        rateChart:
+            expose: true
+            access_type: public_method
+            serialized_name: RateChart
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getRateChart
+                setter: setRateChart
+            type: string
+        baseServiceCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: BaseServiceCharge
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getBaseServiceCharge
+                setter: setBaseServiceCharge
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType
+        transportationCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportationCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTransportationCharges
+                setter: setTransportationCharges
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType
+        itemizedCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemizedCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getItemizedCharges
+                setter: setItemizedCharges
+            xml_list:
+                inline: true
+                entry_name: ItemizedCharges
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType>
+        serviceOptionsCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceOptionsCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getServiceOptionsCharges
+                setter: setServiceOptionsCharges
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType
+        taxCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTaxCharges
+                setter: setTaxCharges
+            xml_list:
+                inline: true
+                entry_name: TaxCharges
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\TaxChargeType>
+        totalCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTotalCharges
+                setter: setTotalCharges
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType
+        totalChargesWithTaxes:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalChargesWithTaxes
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTotalChargesWithTaxes
+                setter: setTotalChargesWithTaxes
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType

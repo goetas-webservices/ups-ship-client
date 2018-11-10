@@ -1,0 +1,12 @@
+GoetasWebservices\Client\UPS\Upss\UPSSecurity\ServiceAccessTokenAType:
+    properties:
+        accessLicenseNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessLicenseNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/UPSS/v1.0'
+            accessor:
+                getter: getAccessLicenseNumber
+                setter: setAccessLicenseNumber
+            type: string

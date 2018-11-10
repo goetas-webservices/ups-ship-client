@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\LabelStockSizeType:
+    properties:
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: Height
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: Width
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: string

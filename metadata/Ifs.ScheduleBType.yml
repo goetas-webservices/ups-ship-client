@@ -1,0 +1,40 @@
+GoetasWebservices\Client\UPS\Ifs\ScheduleBType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: string
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            xml_list:
+                inline: true
+                entry_name: Quantity
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            type: array<string>
+        unitOfMeasurement:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasurement
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getUnitOfMeasurement
+                setter: setUnitOfMeasurement
+            xml_list:
+                inline: true
+                entry_name: UnitOfMeasurement
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ifs\UnitOfMeasurementType>

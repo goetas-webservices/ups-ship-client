@@ -1,0 +1,12 @@
+GoetasWebservices\Client\UPS\Ship\Data\ShipmentServiceOptionsNotificationTextMessageType:
+    properties:
+        phoneNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: PhoneNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPhoneNumber
+                setter: setPhoneNumber
+            type: string

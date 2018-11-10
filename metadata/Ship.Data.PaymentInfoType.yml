@@ -1,0 +1,26 @@
+GoetasWebservices\Client\UPS\Ship\Data\PaymentInfoType:
+    properties:
+        shipmentCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentCharge
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getShipmentCharge
+                setter: setShipmentCharge
+            xml_list:
+                inline: true
+                entry_name: ShipmentCharge
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\ShipmentChargeType>
+        splitDutyVATIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SplitDutyVATIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSplitDutyVATIndicator
+                setter: setSplitDutyVATIndicator
+            type: string

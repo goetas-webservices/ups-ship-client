@@ -1,0 +1,26 @@
+GoetasWebservices\Client\UPS\Error\ElementLevelInformationType:
+    properties:
+        level:
+            expose: true
+            access_type: public_method
+            serialized_name: Level
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getLevel
+                setter: setLevel
+            type: string
+        elementIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: ElementIdentifier
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getElementIdentifier
+                setter: setElementIdentifier
+            xml_list:
+                inline: true
+                entry_name: ElementIdentifier
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            type: array<GoetasWebservices\Client\UPS\Error\ElementIdentifierType>

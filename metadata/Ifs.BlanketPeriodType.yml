@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ifs\BlanketPeriodType:
+    properties:
+        beginDate:
+            expose: true
+            access_type: public_method
+            serialized_name: BeginDate
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getBeginDate
+                setter: setBeginDate
+            type: string
+        endDate:
+            expose: true
+            access_type: public_method
+            serialized_name: EndDate
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getEndDate
+                setter: setEndDate
+            type: string

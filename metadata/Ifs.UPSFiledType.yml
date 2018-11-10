@@ -1,0 +1,12 @@
+GoetasWebservices\Client\UPS\Ifs\UPSFiledType:
+    properties:
+        pOA:
+            expose: true
+            access_type: public_method
+            serialized_name: POA
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPOA
+                setter: setPOA
+            type: GoetasWebservices\Client\UPS\Ifs\POAType

@@ -1,0 +1,72 @@
+GoetasWebservices\Client\UPS\Ship\Data\RestrictedArticlesType:
+    properties:
+        diagnosticSpecimensIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: DiagnosticSpecimensIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDiagnosticSpecimensIndicator
+                setter: setDiagnosticSpecimensIndicator
+            type: string
+        alcoholicBeveragesIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AlcoholicBeveragesIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAlcoholicBeveragesIndicator
+                setter: setAlcoholicBeveragesIndicator
+            type: string
+        perishablesIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PerishablesIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPerishablesIndicator
+                setter: setPerishablesIndicator
+            type: string
+        plantsIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: PlantsIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPlantsIndicator
+                setter: setPlantsIndicator
+            type: string
+        seedsIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SeedsIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSeedsIndicator
+                setter: setSeedsIndicator
+            type: string
+        specialExceptionsIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SpecialExceptionsIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSpecialExceptionsIndicator
+                setter: setSpecialExceptionsIndicator
+            type: string
+        tobaccoIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: TobaccoIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTobaccoIndicator
+                setter: setTobaccoIndicator
+            type: string

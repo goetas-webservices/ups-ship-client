@@ -1,0 +1,36 @@
+GoetasWebservices\Client\UPS\Common\RequestType:
+    properties:
+        requestOption:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestOption
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getRequestOption
+                setter: setRequestOption
+            xml_list:
+                inline: true
+                entry_name: RequestOption
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            type: array<string>
+        subVersion:
+            expose: true
+            access_type: public_method
+            serialized_name: SubVersion
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getSubVersion
+                setter: setSubVersion
+            type: string
+        transactionReference:
+            expose: true
+            access_type: public_method
+            serialized_name: TransactionReference
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getTransactionReference
+                setter: setTransactionReference
+            type: GoetasWebservices\Client\UPS\Common\TransactionReferenceType

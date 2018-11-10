@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Common\TransactionReferenceType:
+    properties:
+        customerContext:
+            expose: true
+            access_type: public_method
+            serialized_name: CustomerContext
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getCustomerContext
+                setter: setCustomerContext
+            type: string
+        transactionIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: TransactionIdentifier
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getTransactionIdentifier
+                setter: setTransactionIdentifier
+            type: string

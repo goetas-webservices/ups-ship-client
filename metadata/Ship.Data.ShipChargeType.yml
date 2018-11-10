@@ -1,0 +1,52 @@
+GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            type: string
+        monetaryValue:
+            expose: true
+            access_type: public_method
+            serialized_name: MonetaryValue
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getMonetaryValue
+                setter: setMonetaryValue
+            type: string
+        subType:
+            expose: true
+            access_type: public_method
+            serialized_name: SubType
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSubType
+                setter: setSubType
+            type: string

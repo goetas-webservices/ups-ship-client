@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\LocaleType:
+    properties:
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: Language
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            type: string
+        dialect:
+            expose: true
+            access_type: public_method
+            serialized_name: Dialect
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDialect
+                setter: setDialect
+            type: string

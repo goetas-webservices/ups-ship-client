@@ -1,0 +1,80 @@
+GoetasWebservices\Client\UPS\Error\ErrorDetailType:
+    properties:
+        severity:
+            expose: true
+            access_type: public_method
+            serialized_name: Severity
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getSeverity
+                setter: setSeverity
+            type: string
+        primaryErrorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PrimaryErrorCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getPrimaryErrorCode
+                setter: setPrimaryErrorCode
+            type: GoetasWebservices\Client\UPS\Error\CodeType
+        minimumRetrySeconds:
+            expose: true
+            access_type: public_method
+            serialized_name: MinimumRetrySeconds
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getMinimumRetrySeconds
+                setter: setMinimumRetrySeconds
+            type: string
+        location:
+            expose: true
+            access_type: public_method
+            serialized_name: Location
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getLocation
+                setter: setLocation
+            type: GoetasWebservices\Client\UPS\Error\LocationType
+        subErrorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubErrorCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getSubErrorCode
+                setter: setSubErrorCode
+            xml_list:
+                inline: true
+                entry_name: SubErrorCode
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            type: array<GoetasWebservices\Client\UPS\Error\CodeType>
+        additionalInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalInformation
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getAdditionalInformation
+                setter: setAdditionalInformation
+            xml_list:
+                inline: true
+                entry_name: AdditionalInformation
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            type: array<GoetasWebservices\Client\UPS\Error\AdditionalInfoType>
+        elementLevelInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: ElementLevelInformation
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getElementLevelInformation
+                setter: setElementLevelInformation
+            type: GoetasWebservices\Client\UPS\Error\ElementLevelInformationType

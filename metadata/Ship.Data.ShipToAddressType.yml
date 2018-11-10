@@ -1,0 +1,12 @@
+GoetasWebservices\Client\UPS\Ship\Data\ShipToAddressType:
+    properties:
+        residentialAddressIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ResidentialAddressIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getResidentialAddressIndicator
+                setter: setResidentialAddressIndicator
+            type: string

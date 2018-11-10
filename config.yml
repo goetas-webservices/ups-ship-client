@@ -1,0 +1,14 @@
+soap_client:
+    namespaces:
+        'http://www.ups.com/WSDL/XOLTWS/Ship/v1.0': GoetasWebservices\Client\UPS\Ship\Service
+        'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0': GoetasWebservices\Client\UPS\Ship\Data
+        'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0': GoetasWebservices\Client\UPS\Common
+        'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0': GoetasWebservices\Client\UPS\Ifs
+        'http://www.ups.com/XMLSchema/XOLTWS/UPSS/v1.0': GoetasWebservices\Client\UPS\Upss
+        'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1': GoetasWebservices\Client\UPS\Error
+    destinations_php:
+        GoetasWebservices\Client\UPS: src
+    destinations_jms:
+        GoetasWebservices\Client\UPS: metadata
+    metadata:
+        SCHEMA-WSDLs/Ship.wsdl: null

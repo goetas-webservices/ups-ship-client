@@ -1,0 +1,62 @@
+GoetasWebservices\Client\UPS\Ship\Data\CompanyInfoType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        attentionName:
+            expose: true
+            access_type: public_method
+            serialized_name: AttentionName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAttentionName
+                setter: setAttentionName
+            type: string
+        companyDisplayableName:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyDisplayableName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCompanyDisplayableName
+                setter: setCompanyDisplayableName
+            type: string
+        taxIdentificationNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxIdentificationNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTaxIdentificationNumber
+                setter: setTaxIdentificationNumber
+            type: string
+        taxIDType:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxIDType
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTaxIDType
+                setter: setTaxIDType
+            type: GoetasWebservices\Client\UPS\Ship\Data\TaxIDCodeDescType
+        phone:
+            expose: true
+            access_type: public_method
+            serialized_name: Phone
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPhone
+                setter: setPhone
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipPhoneType

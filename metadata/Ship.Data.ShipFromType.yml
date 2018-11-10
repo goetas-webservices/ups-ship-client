@@ -1,0 +1,32 @@
+GoetasWebservices\Client\UPS\Ship\Data\ShipFromType:
+    properties:
+        faxNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: FaxNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getFaxNumber
+                setter: setFaxNumber
+            type: string
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipAddressType
+        eMailAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: EMailAddress
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getEMailAddress
+                setter: setEMailAddress
+            type: string

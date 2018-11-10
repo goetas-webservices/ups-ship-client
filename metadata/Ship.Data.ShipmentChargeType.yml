@@ -1,0 +1,52 @@
+GoetasWebservices\Client\UPS\Ship\Data\ShipmentChargeType:
+    properties:
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        billShipper:
+            expose: true
+            access_type: public_method
+            serialized_name: BillShipper
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getBillShipper
+                setter: setBillShipper
+            type: GoetasWebservices\Client\UPS\Ship\Data\BillShipperType
+        billReceiver:
+            expose: true
+            access_type: public_method
+            serialized_name: BillReceiver
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getBillReceiver
+                setter: setBillReceiver
+            type: GoetasWebservices\Client\UPS\Ship\Data\BillReceiverType
+        billThirdParty:
+            expose: true
+            access_type: public_method
+            serialized_name: BillThirdParty
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getBillThirdParty
+                setter: setBillThirdParty
+            type: GoetasWebservices\Client\UPS\Ship\Data\BillThirdPartyChargeType
+        consigneeBilledIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsigneeBilledIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getConsigneeBilledIndicator
+                setter: setConsigneeBilledIndicator
+            type: string

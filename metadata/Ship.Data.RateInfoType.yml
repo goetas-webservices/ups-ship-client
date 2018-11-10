@@ -1,0 +1,52 @@
+GoetasWebservices\Client\UPS\Ship\Data\RateInfoType:
+    properties:
+        negotiatedRatesIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: NegotiatedRatesIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getNegotiatedRatesIndicator
+                setter: setNegotiatedRatesIndicator
+            type: string
+        fRSShipmentIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: FRSShipmentIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getFRSShipmentIndicator
+                setter: setFRSShipmentIndicator
+            type: string
+        rateChartIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: RateChartIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getRateChartIndicator
+                setter: setRateChartIndicator
+            type: string
+        tPFCNegotiatedRatesIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: TPFCNegotiatedRatesIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTPFCNegotiatedRatesIndicator
+                setter: setTPFCNegotiatedRatesIndicator
+            type: string
+        userLevelDiscountIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: UserLevelDiscountIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getUserLevelDiscountIndicator
+                setter: setUserLevelDiscountIndicator
+            type: string

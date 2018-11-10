@@ -1,0 +1,12 @@
+GoetasWebservices\Client\UPS\Ship\Data\VerbalConfirmationType:
+    properties:
+        contactInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ContactInfo
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getContactInfo
+                setter: setContactInfo
+            type: GoetasWebservices\Client\UPS\Ship\Data\ContactInfoType

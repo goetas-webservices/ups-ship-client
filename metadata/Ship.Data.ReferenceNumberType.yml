@@ -1,0 +1,32 @@
+GoetasWebservices\Client\UPS\Ship\Data\ReferenceNumberType:
+    properties:
+        barCodeIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: BarCodeIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getBarCodeIndicator
+                setter: setBarCodeIndicator
+            type: string
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: string
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: string

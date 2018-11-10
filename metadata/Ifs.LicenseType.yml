@@ -1,0 +1,32 @@
+GoetasWebservices\Client\UPS\Ifs\LicenseType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: string
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: Date
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getDate
+                setter: setDate
+            type: string
+        exceptionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ExceptionCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getExceptionCode
+                setter: setExceptionCode
+            type: string

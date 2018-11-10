@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\CommodityType:
+    properties:
+        freightClass:
+            expose: true
+            access_type: public_method
+            serialized_name: FreightClass
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getFreightClass
+                setter: setFreightClass
+            type: string
+        nMFC:
+            expose: true
+            access_type: public_method
+            serialized_name: NMFC
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getNMFC
+                setter: setNMFC
+            type: GoetasWebservices\Client\UPS\Ship\Data\NMFCType

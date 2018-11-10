@@ -1,0 +1,3 @@
+GoetasWebservices\Client\UPS\Common\ClientInformation:
+    xml_root_name: ClientInformation
+    xml_root_namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'

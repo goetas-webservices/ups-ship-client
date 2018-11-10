@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\NMFCType:
+    properties:
+        primeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PrimeCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPrimeCode
+                setter: setPrimeCode
+            type: string
+        subCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSubCode
+                setter: setSubCode
+            type: string

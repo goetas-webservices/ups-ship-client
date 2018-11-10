@@ -1,0 +1,76 @@
+GoetasWebservices\Client\UPS\Ship\Data\EmailDetailsType:
+    properties:
+        eMailAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: EMailAddress
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getEMailAddress
+                setter: setEMailAddress
+            xml_list:
+                inline: true
+                entry_name: EMailAddress
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<string>
+        undeliverableEMailAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: UndeliverableEMailAddress
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getUndeliverableEMailAddress
+                setter: setUndeliverableEMailAddress
+            type: string
+        fromEMailAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: FromEMailAddress
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getFromEMailAddress
+                setter: setFromEMailAddress
+            type: string
+        fromName:
+            expose: true
+            access_type: public_method
+            serialized_name: FromName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getFromName
+                setter: setFromName
+            type: string
+        memo:
+            expose: true
+            access_type: public_method
+            serialized_name: Memo
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getMemo
+                setter: setMemo
+            type: string
+        subject:
+            expose: true
+            access_type: public_method
+            serialized_name: Subject
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSubject
+                setter: setSubject
+            type: string
+        subjectCode:
+            expose: true
+            access_type: public_method
+            serialized_name: SubjectCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSubjectCode
+                setter: setSubjectCode
+            type: string

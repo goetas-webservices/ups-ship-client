@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\FreightDensityRateType:
+    properties:
+        density:
+            expose: true
+            access_type: public_method
+            serialized_name: Density
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDensity
+                setter: setDensity
+            type: string
+        totalCubicFeet:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalCubicFeet
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTotalCubicFeet
+                setter: setTotalCubicFeet
+            type: string

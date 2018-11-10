@@ -1,0 +1,116 @@
+GoetasWebservices\Client\UPS\Ship\Data\PackageType:
+    properties:
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        packaging:
+            expose: true
+            access_type: public_method
+            serialized_name: Packaging
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPackaging
+                setter: setPackaging
+            type: GoetasWebservices\Client\UPS\Ship\Data\PackagingType
+        dimensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Dimensions
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDimensions
+                setter: setDimensions
+            type: GoetasWebservices\Client\UPS\Ship\Data\DimensionsType
+        dimWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: DimWeight
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDimWeight
+                setter: setDimWeight
+            type: GoetasWebservices\Client\UPS\Ship\Data\PackageWeightType
+        packageWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageWeight
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPackageWeight
+                setter: setPackageWeight
+            type: GoetasWebservices\Client\UPS\Ship\Data\PackageWeightType
+        largePackageIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: LargePackageIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLargePackageIndicator
+                setter: setLargePackageIndicator
+            type: string
+        referenceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getReferenceNumber
+                setter: setReferenceNumber
+            xml_list:
+                inline: true
+                entry_name: ReferenceNumber
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\ReferenceNumberType>
+        additionalHandlingIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalHandlingIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAdditionalHandlingIndicator
+                setter: setAdditionalHandlingIndicator
+            type: string
+        packageServiceOptions:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageServiceOptions
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPackageServiceOptions
+                setter: setPackageServiceOptions
+            type: GoetasWebservices\Client\UPS\Ship\Data\PackageServiceOptionsType
+        commodity:
+            expose: true
+            access_type: public_method
+            serialized_name: Commodity
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCommodity
+                setter: setCommodity
+            type: GoetasWebservices\Client\UPS\Ship\Data\CommodityType
+        hazMatPackageInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: HazMatPackageInformation
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getHazMatPackageInformation
+                setter: setHazMatPackageInformation
+            type: GoetasWebservices\Client\UPS\Ship\Data\HazMatPackageInformationType

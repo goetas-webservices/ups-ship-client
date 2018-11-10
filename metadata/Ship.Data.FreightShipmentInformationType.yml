@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\FreightShipmentInformationType:
+    properties:
+        freightDensityInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: FreightDensityInfo
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getFreightDensityInfo
+                setter: setFreightDensityInfo
+            type: GoetasWebservices\Client\UPS\Ship\Data\FreightDensityInfoType
+        densityEligibleIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: DensityEligibleIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDensityEligibleIndicator
+                setter: setDensityEligibleIndicator
+            type: string

@@ -1,0 +1,32 @@
+GoetasWebservices\Client\UPS\Ifs\UnitType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: string
+        unitOfMeasurement:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasurement
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getUnitOfMeasurement
+                setter: setUnitOfMeasurement
+            type: GoetasWebservices\Client\UPS\Ifs\UnitOfMeasurementType
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: Value
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getValue
+                setter: setValue
+            type: string

@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\ContactInfoType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        phone:
+            expose: true
+            access_type: public_method
+            serialized_name: Phone
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPhone
+                setter: setPhone
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipPhoneType

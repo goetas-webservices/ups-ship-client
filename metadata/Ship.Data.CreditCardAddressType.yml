@@ -1,0 +1,56 @@
+GoetasWebservices\Client\UPS\Ship\Data\CreditCardAddressType:
+    properties:
+        addressLine:
+            expose: true
+            access_type: public_method
+            serialized_name: AddressLine
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAddressLine
+                setter: setAddressLine
+            xml_list:
+                inline: true
+                entry_name: AddressLine
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<string>
+        city:
+            expose: true
+            access_type: public_method
+            serialized_name: City
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCity
+                setter: setCity
+            type: string
+        stateProvinceCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StateProvinceCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getStateProvinceCode
+                setter: setStateProvinceCode
+            type: string
+        postalCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PostalCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPostalCode
+                setter: setPostalCode
+            type: string
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            type: string

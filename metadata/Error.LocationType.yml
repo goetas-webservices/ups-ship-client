@@ -1,0 +1,32 @@
+GoetasWebservices\Client\UPS\Error\LocationType:
+    properties:
+        locationElementName:
+            expose: true
+            access_type: public_method
+            serialized_name: LocationElementName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getLocationElementName
+                setter: setLocationElementName
+            type: string
+        xPathOfElement:
+            expose: true
+            access_type: public_method
+            serialized_name: XPathOfElement
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getXPathOfElement
+                setter: setXPathOfElement
+            type: string
+        originalValue:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginalValue
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Error/v1.1'
+            accessor:
+                getter: getOriginalValue
+                setter: setOriginalValue
+            type: string

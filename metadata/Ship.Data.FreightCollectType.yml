@@ -1,0 +1,12 @@
+GoetasWebservices\Client\UPS\Ship\Data\FreightCollectType:
+    properties:
+        billReceiver:
+            expose: true
+            access_type: public_method
+            serialized_name: BillReceiver
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getBillReceiver
+                setter: setBillReceiver
+            type: GoetasWebservices\Client\UPS\Ship\Data\BillReceiverType

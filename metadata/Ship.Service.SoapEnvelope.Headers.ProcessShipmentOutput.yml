@@ -1,0 +1,3 @@
+GoetasWebservices\Client\UPS\Ship\Service\SoapEnvelope\Headers\ProcessShipmentOutput:
+    xml_namespaces:
+        SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'

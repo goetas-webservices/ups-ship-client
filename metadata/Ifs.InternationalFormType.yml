@@ -1,0 +1,445 @@
+GoetasWebservices\Client\UPS\Ifs\InternationalFormType:
+    properties:
+        formType:
+            expose: true
+            access_type: public_method
+            serialized_name: FormType
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getFormType
+                setter: setFormType
+            xml_list:
+                inline: true
+                entry_name: FormType
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            type: array<string>
+        userCreatedForm:
+            expose: true
+            access_type: public_method
+            serialized_name: UserCreatedForm
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getUserCreatedForm
+                setter: setUserCreatedForm
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: DocumentID
+                skip_when_empty: true
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+        cN22Form:
+            expose: true
+            access_type: public_method
+            serialized_name: CN22Form
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCN22Form
+                setter: setCN22Form
+            type: GoetasWebservices\Client\UPS\Ifs\CN22FormType
+        uPSPremiumCareForm:
+            expose: true
+            access_type: public_method
+            serialized_name: UPSPremiumCareForm
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getUPSPremiumCareForm
+                setter: setUPSPremiumCareForm
+            type: GoetasWebservices\Client\UPS\Ifs\UPSPremiumCareFormType
+        additionalDocumentIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalDocumentIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getAdditionalDocumentIndicator
+                setter: setAdditionalDocumentIndicator
+            type: string
+        formGroupIdName:
+            expose: true
+            access_type: public_method
+            serialized_name: FormGroupIdName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getFormGroupIdName
+                setter: setFormGroupIdName
+            type: string
+        sEDFilingOption:
+            expose: true
+            access_type: public_method
+            serialized_name: SEDFilingOption
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getSEDFilingOption
+                setter: setSEDFilingOption
+            type: string
+        eEIFilingOption:
+            expose: true
+            access_type: public_method
+            serialized_name: EEIFilingOption
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getEEIFilingOption
+                setter: setEEIFilingOption
+            type: GoetasWebservices\Client\UPS\Ifs\EEIFilingOptionType
+        contacts:
+            expose: true
+            access_type: public_method
+            serialized_name: Contacts
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getContacts
+                setter: setContacts
+            type: GoetasWebservices\Client\UPS\Ifs\ContactType
+        product:
+            expose: true
+            access_type: public_method
+            serialized_name: Product
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getProduct
+                setter: setProduct
+            xml_list:
+                inline: true
+                entry_name: Product
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ifs\ProductType>
+        invoiceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoiceNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getInvoiceNumber
+                setter: setInvoiceNumber
+            type: string
+        invoiceDate:
+            expose: true
+            access_type: public_method
+            serialized_name: InvoiceDate
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getInvoiceDate
+                setter: setInvoiceDate
+            type: string
+        purchaseOrderNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: PurchaseOrderNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPurchaseOrderNumber
+                setter: setPurchaseOrderNumber
+            type: string
+        termsOfShipment:
+            expose: true
+            access_type: public_method
+            serialized_name: TermsOfShipment
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getTermsOfShipment
+                setter: setTermsOfShipment
+            type: string
+        reasonForExport:
+            expose: true
+            access_type: public_method
+            serialized_name: ReasonForExport
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getReasonForExport
+                setter: setReasonForExport
+            type: string
+        comments:
+            expose: true
+            access_type: public_method
+            serialized_name: Comments
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getComments
+                setter: setComments
+            type: string
+        declarationStatement:
+            expose: true
+            access_type: public_method
+            serialized_name: DeclarationStatement
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getDeclarationStatement
+                setter: setDeclarationStatement
+            type: string
+        discount:
+            expose: true
+            access_type: public_method
+            serialized_name: Discount
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getDiscount
+                setter: setDiscount
+            type: GoetasWebservices\Client\UPS\Ifs\IFChargesType
+        freightCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: FreightCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getFreightCharges
+                setter: setFreightCharges
+            type: GoetasWebservices\Client\UPS\Ifs\IFChargesType
+        insuranceCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: InsuranceCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getInsuranceCharges
+                setter: setInsuranceCharges
+            type: GoetasWebservices\Client\UPS\Ifs\IFChargesType
+        otherCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: OtherCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getOtherCharges
+                setter: setOtherCharges
+            type: GoetasWebservices\Client\UPS\Ifs\OtherChargesType
+        currencyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CurrencyCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCurrencyCode
+                setter: setCurrencyCode
+            type: string
+        blanketPeriod:
+            expose: true
+            access_type: public_method
+            serialized_name: BlanketPeriod
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getBlanketPeriod
+                setter: setBlanketPeriod
+            type: GoetasWebservices\Client\UPS\Ifs\BlanketPeriodType
+        exportDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExportDate
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getExportDate
+                setter: setExportDate
+            type: string
+        exportingCarrier:
+            expose: true
+            access_type: public_method
+            serialized_name: ExportingCarrier
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getExportingCarrier
+                setter: setExportingCarrier
+            type: string
+        carrierID:
+            expose: true
+            access_type: public_method
+            serialized_name: CarrierID
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCarrierID
+                setter: setCarrierID
+            type: string
+        inBondCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InBondCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getInBondCode
+                setter: setInBondCode
+            type: string
+        entryNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: EntryNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getEntryNumber
+                setter: setEntryNumber
+            type: string
+        pointOfOrigin:
+            expose: true
+            access_type: public_method
+            serialized_name: PointOfOrigin
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPointOfOrigin
+                setter: setPointOfOrigin
+            type: string
+        pointOfOriginType:
+            expose: true
+            access_type: public_method
+            serialized_name: PointOfOriginType
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPointOfOriginType
+                setter: setPointOfOriginType
+            type: string
+        modeOfTransport:
+            expose: true
+            access_type: public_method
+            serialized_name: ModeOfTransport
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getModeOfTransport
+                setter: setModeOfTransport
+            type: string
+        portOfExport:
+            expose: true
+            access_type: public_method
+            serialized_name: PortOfExport
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPortOfExport
+                setter: setPortOfExport
+            type: string
+        portOfUnloading:
+            expose: true
+            access_type: public_method
+            serialized_name: PortOfUnloading
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPortOfUnloading
+                setter: setPortOfUnloading
+            type: string
+        loadingPier:
+            expose: true
+            access_type: public_method
+            serialized_name: LoadingPier
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getLoadingPier
+                setter: setLoadingPier
+            type: string
+        partiesToTransaction:
+            expose: true
+            access_type: public_method
+            serialized_name: PartiesToTransaction
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPartiesToTransaction
+                setter: setPartiesToTransaction
+            type: string
+        routedExportTransactionIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: RoutedExportTransactionIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getRoutedExportTransactionIndicator
+                setter: setRoutedExportTransactionIndicator
+            type: string
+        containerizedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ContainerizedIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getContainerizedIndicator
+                setter: setContainerizedIndicator
+            type: string
+        license:
+            expose: true
+            access_type: public_method
+            serialized_name: License
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getLicense
+                setter: setLicense
+            type: GoetasWebservices\Client\UPS\Ifs\LicenseType
+        eCCNNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ECCNNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getECCNNumber
+                setter: setECCNNumber
+            type: string
+        overridePaperlessIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: OverridePaperlessIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getOverridePaperlessIndicator
+                setter: setOverridePaperlessIndicator
+            type: string
+        shipperMemo:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipperMemo
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getShipperMemo
+                setter: setShipperMemo
+            type: string
+        multiCurrencyInvoiceLineTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: MultiCurrencyInvoiceLineTotal
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getMultiCurrencyInvoiceLineTotal
+                setter: setMultiCurrencyInvoiceLineTotal
+            type: string
+        hazardousMaterialsIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardousMaterialsIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getHazardousMaterialsIndicator
+                setter: setHazardousMaterialsIndicator
+            type: string

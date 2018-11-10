@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\BillThirdPartyChargeType:
+    properties:
+        accountNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAccountNumber
+                setter: setAccountNumber
+            type: string
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: GoetasWebservices\Client\UPS\Ship\Data\AccountAddressType

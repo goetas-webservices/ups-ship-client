@@ -1,0 +1,57 @@
+GoetasWebservices\Client\UPS\Ifs\UPSPremiumCareFormType:
+    properties:
+        shipmentDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentDate
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getShipmentDate
+                setter: setShipmentDate
+            type: string
+        pageSize:
+            expose: true
+            access_type: public_method
+            serialized_name: PageSize
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPageSize
+                setter: setPageSize
+            type: string
+        printType:
+            expose: true
+            access_type: public_method
+            serialized_name: PrintType
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPrintType
+                setter: setPrintType
+            type: string
+        numOfCopies:
+            expose: true
+            access_type: public_method
+            serialized_name: NumOfCopies
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getNumOfCopies
+                setter: setNumOfCopies
+            type: string
+        languageForUPSPremiumCare:
+            expose: true
+            access_type: public_method
+            serialized_name: LanguageForUPSPremiumCare
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getLanguageForUPSPremiumCare
+                setter: setLanguageForUPSPremiumCare
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: Language
+                skip_when_empty: false
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'

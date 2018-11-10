@@ -1,0 +1,12 @@
+GoetasWebservices\Client\UPS\Ship\Data\PrepaidType:
+    properties:
+        billShipper:
+            expose: true
+            access_type: public_method
+            serialized_name: BillShipper
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getBillShipper
+                setter: setBillShipper
+            type: GoetasWebservices\Client\UPS\Ship\Data\BillShipperType

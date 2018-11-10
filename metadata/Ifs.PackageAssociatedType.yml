@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ifs\PackageAssociatedType:
+    properties:
+        packageNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPackageNumber
+                setter: setPackageNumber
+            type: string
+        productAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: ProductAmount
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getProductAmount
+                setter: setProductAmount
+            type: string

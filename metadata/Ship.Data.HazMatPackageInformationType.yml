@@ -1,0 +1,32 @@
+GoetasWebservices\Client\UPS\Ship\Data\HazMatPackageInformationType:
+    properties:
+        allPackedInOneIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AllPackedInOneIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAllPackedInOneIndicator
+                setter: setAllPackedInOneIndicator
+            type: string
+        overPackedIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: OverPackedIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getOverPackedIndicator
+                setter: setOverPackedIndicator
+            type: string
+        qValue:
+            expose: true
+            access_type: public_method
+            serialized_name: QValue
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getQValue
+                setter: setQValue
+            type: string

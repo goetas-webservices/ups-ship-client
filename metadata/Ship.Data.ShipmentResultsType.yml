@@ -1,0 +1,218 @@
+GoetasWebservices\Client\UPS\Ship\Data\ShipmentResultsType:
+    properties:
+        disclaimer:
+            expose: true
+            access_type: public_method
+            serialized_name: Disclaimer
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDisclaimer
+                setter: setDisclaimer
+            xml_list:
+                inline: true
+                entry_name: Disclaimer
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\DisclaimerType>
+        shipmentCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getShipmentCharges
+                setter: setShipmentCharges
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipmentChargesType
+        negotiatedRateCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: NegotiatedRateCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getNegotiatedRateCharges
+                setter: setNegotiatedRateCharges
+            type: GoetasWebservices\Client\UPS\Ship\Data\NegotiatedRateChargesType
+        fRSShipmentData:
+            expose: true
+            access_type: public_method
+            serialized_name: FRSShipmentData
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getFRSShipmentData
+                setter: setFRSShipmentData
+            type: GoetasWebservices\Client\UPS\Ship\Data\FRSShipmentDataType
+        ratingMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: RatingMethod
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getRatingMethod
+                setter: setRatingMethod
+            type: string
+        billableWeightCalculationMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: BillableWeightCalculationMethod
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getBillableWeightCalculationMethod
+                setter: setBillableWeightCalculationMethod
+            type: string
+        billingWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: BillingWeight
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getBillingWeight
+                setter: setBillingWeight
+            type: GoetasWebservices\Client\UPS\Ship\Data\BillingWeightType
+        shipmentIdentificationNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentIdentificationNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getShipmentIdentificationNumber
+                setter: setShipmentIdentificationNumber
+            type: string
+        mIDualReturnShipmentKey:
+            expose: true
+            access_type: public_method
+            serialized_name: MIDualReturnShipmentKey
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getMIDualReturnShipmentKey
+                setter: setMIDualReturnShipmentKey
+            type: string
+        shipmentDigest:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentDigest
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getShipmentDigest
+                setter: setShipmentDigest
+            type: string
+        packageResults:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageResults
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPackageResults
+                setter: setPackageResults
+            xml_list:
+                inline: true
+                entry_name: PackageResults
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\PackageResultsType>
+        controlLogReceipt:
+            expose: true
+            access_type: public_method
+            serialized_name: ControlLogReceipt
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getControlLogReceipt
+                setter: setControlLogReceipt
+            xml_list:
+                inline: true
+                entry_name: ControlLogReceipt
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\ImageType>
+        form:
+            expose: true
+            access_type: public_method
+            serialized_name: Form
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getForm
+                setter: setForm
+            type: GoetasWebservices\Client\UPS\Ship\Data\FormType
+        cODTurnInPage:
+            expose: true
+            access_type: public_method
+            serialized_name: CODTurnInPage
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCODTurnInPage
+                setter: setCODTurnInPage
+            type: GoetasWebservices\Client\UPS\Ship\Data\SCReportType
+        highValueReport:
+            expose: true
+            access_type: public_method
+            serialized_name: HighValueReport
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getHighValueReport
+                setter: setHighValueReport
+            type: GoetasWebservices\Client\UPS\Ship\Data\HighValueReportType
+        labelURL:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelURL
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLabelURL
+                setter: setLabelURL
+            type: string
+        localLanguageLabelURL:
+            expose: true
+            access_type: public_method
+            serialized_name: LocalLanguageLabelURL
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLocalLanguageLabelURL
+                setter: setLocalLanguageLabelURL
+            type: string
+        receiptURL:
+            expose: true
+            access_type: public_method
+            serialized_name: ReceiptURL
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getReceiptURL
+                setter: setReceiptURL
+            type: string
+        localLanguageReceiptURL:
+            expose: true
+            access_type: public_method
+            serialized_name: LocalLanguageReceiptURL
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLocalLanguageReceiptURL
+                setter: setLocalLanguageReceiptURL
+            type: string
+        dGPaperImage:
+            expose: true
+            access_type: public_method
+            serialized_name: DGPaperImage
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDGPaperImage
+                setter: setDGPaperImage
+            xml_list:
+                inline: true
+                entry_name: DGPaperImage
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<string>

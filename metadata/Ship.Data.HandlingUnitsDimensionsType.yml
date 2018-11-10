@@ -1,0 +1,42 @@
+GoetasWebservices\Client\UPS\Ship\Data\HandlingUnitsDimensionsType:
+    properties:
+        unitOfMeasurement:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasurement
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getUnitOfMeasurement
+                setter: setUnitOfMeasurement
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipUnitOfMeasurementType
+        length:
+            expose: true
+            access_type: public_method
+            serialized_name: Length
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLength
+                setter: setLength
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: Width
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: Height
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: string

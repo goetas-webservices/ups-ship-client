@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\FormImageType:
+    properties:
+        imageFormat:
+            expose: true
+            access_type: public_method
+            serialized_name: ImageFormat
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getImageFormat
+                setter: setImageFormat
+            type: GoetasWebservices\Client\UPS\Ship\Data\ImageFormatType
+        graphicImage:
+            expose: true
+            access_type: public_method
+            serialized_name: GraphicImage
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getGraphicImage
+                setter: setGraphicImage
+            type: string

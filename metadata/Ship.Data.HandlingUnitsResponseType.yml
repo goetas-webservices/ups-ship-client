@@ -1,0 +1,42 @@
+GoetasWebservices\Client\UPS\Ship\Data\HandlingUnitsResponseType:
+    properties:
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getType
+                setter: setType
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipUnitOfMeasurementType
+        dimensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Dimensions
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDimensions
+                setter: setDimensions
+            type: GoetasWebservices\Client\UPS\Ship\Data\HandlingUnitsDimensionsType
+        adjustedHeight:
+            expose: true
+            access_type: public_method
+            serialized_name: AdjustedHeight
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAdjustedHeight
+                setter: setAdjustedHeight
+            type: GoetasWebservices\Client\UPS\Ship\Data\AdjustedHeightType

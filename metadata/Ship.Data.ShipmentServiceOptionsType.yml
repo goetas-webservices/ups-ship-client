@@ -1,0 +1,250 @@
+GoetasWebservices\Client\UPS\Ship\Data\ShipmentServiceOptionsType:
+    properties:
+        saturdayDeliveryIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SaturdayDeliveryIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSaturdayDeliveryIndicator
+                setter: setSaturdayDeliveryIndicator
+            type: string
+        saturdayPickupIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SaturdayPickupIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSaturdayPickupIndicator
+                setter: setSaturdayPickupIndicator
+            type: string
+        cOD:
+            expose: true
+            access_type: public_method
+            serialized_name: COD
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCOD
+                setter: setCOD
+            type: GoetasWebservices\Client\UPS\Ship\Data\CODType
+        accessPointCOD:
+            expose: true
+            access_type: public_method
+            serialized_name: AccessPointCOD
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAccessPointCOD
+                setter: setAccessPointCOD
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipmentServiceOptionsAccessPointCODType
+        deliverToAddresseeOnlyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliverToAddresseeOnlyIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDeliverToAddresseeOnlyIndicator
+                setter: setDeliverToAddresseeOnlyIndicator
+            type: string
+        directDeliveryOnlyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: DirectDeliveryOnlyIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDirectDeliveryOnlyIndicator
+                setter: setDirectDeliveryOnlyIndicator
+            type: string
+        notification:
+            expose: true
+            access_type: public_method
+            serialized_name: Notification
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getNotification
+                setter: setNotification
+            xml_list:
+                inline: true
+                entry_name: Notification
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\NotificationType>
+        labelDelivery:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelDelivery
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLabelDelivery
+                setter: setLabelDelivery
+            type: GoetasWebservices\Client\UPS\Ship\Data\LabelDeliveryType
+        internationalForms:
+            expose: true
+            access_type: public_method
+            serialized_name: InternationalForms
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getInternationalForms
+                setter: setInternationalForms
+            type: GoetasWebservices\Client\UPS\Ifs\InternationalFormType
+        deliveryConfirmation:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryConfirmation
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDeliveryConfirmation
+                setter: setDeliveryConfirmation
+            type: GoetasWebservices\Client\UPS\Ship\Data\DeliveryConfirmationType
+        returnOfDocumentIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ReturnOfDocumentIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getReturnOfDocumentIndicator
+                setter: setReturnOfDocumentIndicator
+            type: string
+        importControlIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ImportControlIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getImportControlIndicator
+                setter: setImportControlIndicator
+            type: string
+        labelMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelMethod
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLabelMethod
+                setter: setLabelMethod
+            type: GoetasWebservices\Client\UPS\Ship\Data\LabelMethodType
+        commercialInvoiceRemovalIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: CommercialInvoiceRemovalIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCommercialInvoiceRemovalIndicator
+                setter: setCommercialInvoiceRemovalIndicator
+            type: string
+        uPScarbonneutralIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: UPScarbonneutralIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getUPScarbonneutralIndicator
+                setter: setUPScarbonneutralIndicator
+            type: string
+        preAlertNotification:
+            expose: true
+            access_type: public_method
+            serialized_name: PreAlertNotification
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPreAlertNotification
+                setter: setPreAlertNotification
+            xml_list:
+                inline: true
+                entry_name: PreAlertNotification
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\PreAlertNotificationType>
+        exchangeForwardIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: ExchangeForwardIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getExchangeForwardIndicator
+                setter: setExchangeForwardIndicator
+            type: string
+        holdForPickupIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: HoldForPickupIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getHoldForPickupIndicator
+                setter: setHoldForPickupIndicator
+            type: string
+        dropoffAtUPSFacilityIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: DropoffAtUPSFacilityIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDropoffAtUPSFacilityIndicator
+                setter: setDropoffAtUPSFacilityIndicator
+            type: string
+        liftGateForPickUpIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: LiftGateForPickUpIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLiftGateForPickUpIndicator
+                setter: setLiftGateForPickUpIndicator
+            type: string
+        liftGateForDeliveryIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: LiftGateForDeliveryIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLiftGateForDeliveryIndicator
+                setter: setLiftGateForDeliveryIndicator
+            type: string
+        sDLShipmentIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SDLShipmentIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSDLShipmentIndicator
+                setter: setSDLShipmentIndicator
+            type: string
+        ePRAReleaseCode:
+            expose: true
+            access_type: public_method
+            serialized_name: EPRAReleaseCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getEPRAReleaseCode
+                setter: setEPRAReleaseCode
+            type: string
+        restrictedArticles:
+            expose: true
+            access_type: public_method
+            serialized_name: RestrictedArticles
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getRestrictedArticles
+                setter: setRestrictedArticles
+            type: GoetasWebservices\Client\UPS\Ship\Data\RestrictedArticlesType

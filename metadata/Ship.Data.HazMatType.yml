@@ -1,0 +1,302 @@
+GoetasWebservices\Client\UPS\Ship\Data\HazMatType:
+    properties:
+        packagingTypeQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: PackagingTypeQuantity
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPackagingTypeQuantity
+                setter: setPackagingTypeQuantity
+            type: string
+        recordIdentifier1:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordIdentifier1
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getRecordIdentifier1
+                setter: setRecordIdentifier1
+            type: string
+        recordIdentifier2:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordIdentifier2
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getRecordIdentifier2
+                setter: setRecordIdentifier2
+            type: string
+        recordIdentifier3:
+            expose: true
+            access_type: public_method
+            serialized_name: RecordIdentifier3
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getRecordIdentifier3
+                setter: setRecordIdentifier3
+            type: string
+        subRiskClass:
+            expose: true
+            access_type: public_method
+            serialized_name: SubRiskClass
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getSubRiskClass
+                setter: setSubRiskClass
+            type: string
+        aDRItemNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: aDRItemNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getADRItemNumber
+                setter: setADRItemNumber
+            type: string
+        aDRPackingGroupLetter:
+            expose: true
+            access_type: public_method
+            serialized_name: aDRPackingGroupLetter
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getADRPackingGroupLetter
+                setter: setADRPackingGroupLetter
+            type: string
+        technicalName:
+            expose: true
+            access_type: public_method
+            serialized_name: TechnicalName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTechnicalName
+                setter: setTechnicalName
+            type: string
+        hazardLabelRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: HazardLabelRequired
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getHazardLabelRequired
+                setter: setHazardLabelRequired
+            type: string
+        classDivisionNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ClassDivisionNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getClassDivisionNumber
+                setter: setClassDivisionNumber
+            type: string
+        referenceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getReferenceNumber
+                setter: setReferenceNumber
+            type: string
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: string
+        uOM:
+            expose: true
+            access_type: public_method
+            serialized_name: UOM
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getUOM
+                setter: setUOM
+            type: string
+        packagingType:
+            expose: true
+            access_type: public_method
+            serialized_name: PackagingType
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPackagingType
+                setter: setPackagingType
+            type: string
+        iDNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: IDNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getIDNumber
+                setter: setIDNumber
+            type: string
+        properShippingName:
+            expose: true
+            access_type: public_method
+            serialized_name: ProperShippingName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getProperShippingName
+                setter: setProperShippingName
+            type: string
+        additionalDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: AdditionalDescription
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAdditionalDescription
+                setter: setAdditionalDescription
+            type: string
+        packagingGroupType:
+            expose: true
+            access_type: public_method
+            serialized_name: PackagingGroupType
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPackagingGroupType
+                setter: setPackagingGroupType
+            type: string
+        packagingInstructionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PackagingInstructionCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPackagingInstructionCode
+                setter: setPackagingInstructionCode
+            type: string
+        emergencyPhone:
+            expose: true
+            access_type: public_method
+            serialized_name: EmergencyPhone
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getEmergencyPhone
+                setter: setEmergencyPhone
+            type: string
+        emergencyContact:
+            expose: true
+            access_type: public_method
+            serialized_name: EmergencyContact
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getEmergencyContact
+                setter: setEmergencyContact
+            type: string
+        reportableQuantity:
+            expose: true
+            access_type: public_method
+            serialized_name: ReportableQuantity
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getReportableQuantity
+                setter: setReportableQuantity
+            type: string
+        regulationSet:
+            expose: true
+            access_type: public_method
+            serialized_name: RegulationSet
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getRegulationSet
+                setter: setRegulationSet
+            type: string
+        transportationMode:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportationMode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTransportationMode
+                setter: setTransportationMode
+            type: string
+        commodityRegulatedLevelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CommodityRegulatedLevelCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCommodityRegulatedLevelCode
+                setter: setCommodityRegulatedLevelCode
+            type: string
+        transportCategory:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportCategory
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTransportCategory
+                setter: setTransportCategory
+            type: string
+        tunnelRestrictionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: TunnelRestrictionCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTunnelRestrictionCode
+                setter: setTunnelRestrictionCode
+            type: string
+        chemicalRecordIdentifier:
+            expose: true
+            access_type: public_method
+            serialized_name: ChemicalRecordIdentifier
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getChemicalRecordIdentifier
+                setter: setChemicalRecordIdentifier
+            type: string
+        localTechnicalName:
+            expose: true
+            access_type: public_method
+            serialized_name: LocalTechnicalName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLocalTechnicalName
+                setter: setLocalTechnicalName
+            type: string
+        localProperShippingName:
+            expose: true
+            access_type: public_method
+            serialized_name: LocalProperShippingName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getLocalProperShippingName
+                setter: setLocalProperShippingName
+            type: string

@@ -1,0 +1,72 @@
+GoetasWebservices\Client\UPS\Ifs\ProducerType:
+    properties:
+        option:
+            expose: true
+            access_type: public_method
+            serialized_name: Option
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getOption
+                setter: setOption
+            type: string
+        companyName:
+            expose: true
+            access_type: public_method
+            serialized_name: CompanyName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getCompanyName
+                setter: setCompanyName
+            type: string
+        taxIdentificationNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxIdentificationNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getTaxIdentificationNumber
+                setter: setTaxIdentificationNumber
+            type: string
+        address:
+            expose: true
+            access_type: public_method
+            serialized_name: Address
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getAddress
+                setter: setAddress
+            type: GoetasWebservices\Client\UPS\Ifs\AddressType
+        attentionName:
+            expose: true
+            access_type: public_method
+            serialized_name: AttentionName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getAttentionName
+                setter: setAttentionName
+            type: string
+        phone:
+            expose: true
+            access_type: public_method
+            serialized_name: Phone
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getPhone
+                setter: setPhone
+            type: GoetasWebservices\Client\UPS\Ifs\PhoneType
+        eMailAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: EMailAddress
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getEMailAddress
+                setter: setEMailAddress
+            type: string

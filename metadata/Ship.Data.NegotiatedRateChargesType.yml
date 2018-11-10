@@ -1,0 +1,50 @@
+GoetasWebservices\Client\UPS\Ship\Data\NegotiatedRateChargesType:
+    properties:
+        itemizedCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: ItemizedCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getItemizedCharges
+                setter: setItemizedCharges
+            xml_list:
+                inline: true
+                entry_name: ItemizedCharges
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType>
+        taxCharges:
+            expose: true
+            access_type: public_method
+            serialized_name: TaxCharges
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTaxCharges
+                setter: setTaxCharges
+            xml_list:
+                inline: true
+                entry_name: TaxCharges
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\TaxChargeType>
+        totalCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalCharge
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTotalCharge
+                setter: setTotalCharge
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType
+        totalChargesWithTaxes:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalChargesWithTaxes
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getTotalChargesWithTaxes
+                setter: setTotalChargesWithTaxes
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType

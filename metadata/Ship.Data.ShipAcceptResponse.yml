@@ -1,0 +1,24 @@
+GoetasWebservices\Client\UPS\Ship\Data\ShipAcceptResponse:
+    xml_root_name: ShipAcceptResponse
+    xml_root_namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+    properties:
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: Response
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Common/v1.0'
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            type: GoetasWebservices\Client\UPS\Common\Response
+        shipmentResults:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentResults
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getShipmentResults
+                setter: setShipmentResults
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipmentResultsType

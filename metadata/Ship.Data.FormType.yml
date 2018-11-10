@@ -1,0 +1,52 @@
+GoetasWebservices\Client\UPS\Ship\Data\FormType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        image:
+            expose: true
+            access_type: public_method
+            serialized_name: Image
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getImage
+                setter: setImage
+            type: GoetasWebservices\Client\UPS\Ship\Data\FormImageType
+        formGroupId:
+            expose: true
+            access_type: public_method
+            serialized_name: FormGroupId
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getFormGroupId
+                setter: setFormGroupId
+            type: string
+        formGroupIdName:
+            expose: true
+            access_type: public_method
+            serialized_name: FormGroupIdName
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getFormGroupIdName
+                setter: setFormGroupIdName
+            type: string

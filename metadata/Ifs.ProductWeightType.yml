@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ifs\ProductWeightType:
+    properties:
+        unitOfMeasurement:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasurement
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getUnitOfMeasurement
+                setter: setUnitOfMeasurement
+            type: GoetasWebservices\Client\UPS\Ifs\UnitOfMeasurementType
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: string

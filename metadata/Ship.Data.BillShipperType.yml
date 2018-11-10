@@ -1,0 +1,32 @@
+GoetasWebservices\Client\UPS\Ship\Data\BillShipperType:
+    properties:
+        accountNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AccountNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAccountNumber
+                setter: setAccountNumber
+            type: string
+        creditCard:
+            expose: true
+            access_type: public_method
+            serialized_name: CreditCard
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getCreditCard
+                setter: setCreditCard
+            type: GoetasWebservices\Client\UPS\Ship\Data\CreditCardType
+        alternatePaymentMethod:
+            expose: true
+            access_type: public_method
+            serialized_name: AlternatePaymentMethod
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAlternatePaymentMethod
+                setter: setAlternatePaymentMethod
+            type: string

@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ifs\PhoneType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: Number
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            type: string
+        extension:
+            expose: true
+            access_type: public_method
+            serialized_name: Extension
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getExtension
+                setter: setExtension
+            type: string

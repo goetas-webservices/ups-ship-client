@@ -1,0 +1,82 @@
+GoetasWebservices\Client\UPS\Ifs\DDTCInformationType:
+    properties:
+        iTARExemptionNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ITARExemptionNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getITARExemptionNumber
+                setter: setITARExemptionNumber
+            type: string
+        uSMLCategoryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: USMLCategoryCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getUSMLCategoryCode
+                setter: setUSMLCategoryCode
+            type: string
+        eligiblePartyIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: EligiblePartyIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getEligiblePartyIndicator
+                setter: setEligiblePartyIndicator
+            type: string
+        registrationNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: RegistrationNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getRegistrationNumber
+                setter: setRegistrationNumber
+            type: string
+        quantity:
+            expose: true
+            access_type: public_method
+            serialized_name: Quantity
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getQuantity
+                setter: setQuantity
+            type: string
+        unitOfMeasurement:
+            expose: true
+            access_type: public_method
+            serialized_name: UnitOfMeasurement
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getUnitOfMeasurement
+                setter: setUnitOfMeasurement
+            type: GoetasWebservices\Client\UPS\Ifs\UnitOfMeasurementType
+        significantMilitaryEquipmentIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: SignificantMilitaryEquipmentIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getSignificantMilitaryEquipmentIndicator
+                setter: setSignificantMilitaryEquipmentIndicator
+            type: string
+        aCMNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ACMNumber
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/IF/v1.0'
+            accessor:
+                getter: getACMNumber
+                setter: setACMNumber
+            type: string

@@ -1,0 +1,13 @@
+GoetasWebservices\Client\UPS\Ship\Service\SoapParts\ProcessShipAcceptOutput:
+    xml_root_namespace: 'http://www.ups.com/WSDL/XOLTWS/Ship/v1.0'
+    properties:
+        body:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getBody
+                setter: setBody
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            serialized_name: ShipAcceptResponse
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipAcceptResponse

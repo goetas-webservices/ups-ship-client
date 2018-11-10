@@ -1,0 +1,42 @@
+GoetasWebservices\Client\UPS\Ship\Data\TransportationChargeType:
+    properties:
+        grossCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: GrossCharge
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getGrossCharge
+                setter: setGrossCharge
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType
+        discountAmount:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountAmount
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDiscountAmount
+                setter: setDiscountAmount
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType
+        discountPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: DiscountPercentage
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getDiscountPercentage
+                setter: setDiscountPercentage
+            type: string
+        netCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: NetCharge
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getNetCharge
+                setter: setNetCharge
+            type: GoetasWebservices\Client\UPS\Ship\Data\ShipChargeType

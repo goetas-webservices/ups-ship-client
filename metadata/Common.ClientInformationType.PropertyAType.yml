@@ -1,0 +1,19 @@
+GoetasWebservices\Client\UPS\Common\ClientInformationType\PropertyAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        key:
+            expose: true
+            access_type: public_method
+            serialized_name: Key
+            accessor:
+                getter: getKey
+                setter: setKey
+            xml_attribute: true
+            type: string

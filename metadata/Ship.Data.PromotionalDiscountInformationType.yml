@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\PromotionalDiscountInformationType:
+    properties:
+        promoCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PromoCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPromoCode
+                setter: setPromoCode
+            type: string
+        promoAliasCode:
+            expose: true
+            access_type: public_method
+            serialized_name: PromoAliasCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getPromoAliasCode
+                setter: setPromoAliasCode
+            type: string

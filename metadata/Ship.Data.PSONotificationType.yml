@@ -1,0 +1,22 @@
+GoetasWebservices\Client\UPS\Ship\Data\PSONotificationType:
+    properties:
+        notificationCode:
+            expose: true
+            access_type: public_method
+            serialized_name: NotificationCode
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getNotificationCode
+                setter: setNotificationCode
+            type: string
+        eMail:
+            expose: true
+            access_type: public_method
+            serialized_name: EMail
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getEMail
+                setter: setEMail
+            type: GoetasWebservices\Client\UPS\Ship\Data\EmailDetailsType

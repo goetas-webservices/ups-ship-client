@@ -1,0 +1,36 @@
+GoetasWebservices\Client\UPS\Ship\Data\FreightDensityInfoType:
+    properties:
+        adjustedHeightIndicator:
+            expose: true
+            access_type: public_method
+            serialized_name: AdjustedHeightIndicator
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAdjustedHeightIndicator
+                setter: setAdjustedHeightIndicator
+            type: string
+        adjustedHeight:
+            expose: true
+            access_type: public_method
+            serialized_name: AdjustedHeight
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getAdjustedHeight
+                setter: setAdjustedHeight
+            type: GoetasWebservices\Client\UPS\Ship\Data\AdjustedHeightType
+        handlingUnits:
+            expose: true
+            access_type: public_method
+            serialized_name: HandlingUnits
+            xml_element:
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            accessor:
+                getter: getHandlingUnits
+                setter: setHandlingUnits
+            xml_list:
+                inline: true
+                entry_name: HandlingUnits
+                namespace: 'http://www.ups.com/XMLSchema/XOLTWS/Ship/v1.0'
+            type: array<GoetasWebservices\Client\UPS\Ship\Data\HandlingUnitsType>
